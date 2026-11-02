@@ -230,3 +230,4 @@ jobs:
       VERCEL_PROJECT_ID_DOCS_CO: ${{ secrets.VERCEL_PROJECT_ID_DOCS_CO }}
 ```
 # mergify test
+trigger
